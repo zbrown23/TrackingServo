@@ -1,0 +1,242 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fb2e8f29-8669-4af8-acf5-f1d2edef5d8b")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "All Digital logic is 5V TTL.\nAll analog signals are 0-10V."
+		(exclude_from_sim no)
+		(at 41.91 43.18 0)
+		(size 31.75 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1149e859-4033-4086-b352-55b16a63fc43")
+	)
+	(sheet
+		(at 228.6 99.06)
+		(size 26.67 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25017b27-eb5e-4232-991b-a78fc95b9765")
+		(property "Sheetname" "Feedback Controller"
+			(at 228.6 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 228.6 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrackingServo"
+				(path "/fb2e8f29-8669-4af8-acf5-f1d2edef5d8b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 85.09)
+		(size 24.13 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3643bc48-da92-46cf-8964-8a686209c079")
+		(property "Sheetname" "Solar Cell Frontend"
+			(at 45.72 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_cell.kicad_sch"
+			(at 45.72 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCK" output
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d827f41-5c06-439f-893c-24baa6012a4a")
+		)
+		(pin "SIGNAL" output
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7e0ddfa-dab3-48bc-b294-688ebd9c9b45")
+		)
+		(instances
+			(project "TrackingServo"
+				(path "/fb2e8f29-8669-4af8-acf5-f1d2edef5d8b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 67.31)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "454d2117-536b-4358-9d9e-8ee7055e01b0")
+		(property "Sheetname" "Motor Driver"
+			(at 228.6 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 228.6 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrackingServo"
+				(path "/fb2e8f29-8669-4af8-acf5-f1d2edef5d8b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 129.54)
+		(size 21.59 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c7c6353-724d-4c62-a9e3-ca757e99bc4b")
+		(property "Sheetname" "Laser Driver"
+			(at 48.26 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "laser_driver.kicad_sch"
+			(at 48.26 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrackingServo"
+				(path "/fb2e8f29-8669-4af8-acf5-f1d2edef5d8b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 85.09)
+		(size 33.02 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e01d69bf-20b9-4190-9ca7-597deae66090")
+		(property "Sheetname" "State Machine"
+			(at 111.76 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "state_machine.kicad_sch"
+			(at 111.76 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrackingServo"
+				(path "/fb2e8f29-8669-4af8-acf5-f1d2edef5d8b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
