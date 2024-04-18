@@ -385,26 +385,6 @@
     [
       "fb2e8f29-8669-4af8-acf5-f1d2edef5d8b",
       "Root"
-    ],
-    [
-      "3643bc48-da92-46cf-8964-8a686209c079",
-      "Solar Cell Frontend"
-    ],
-    [
-      "e01d69bf-20b9-4190-9ca7-597deae66090",
-      "State Machine"
-    ],
-    [
-      "454d2117-536b-4358-9d9e-8ee7055e01b0",
-      "Motor Driver"
-    ],
-    [
-      "25017b27-eb5e-4232-991b-a78fc95b9765",
-      "Feedback Controller"
-    ],
-    [
-      "5c7c6353-724d-4c62-a9e3-ca757e99bc4b",
-      "Laser Driver"
     ]
   ],
   "text_variables": {}
